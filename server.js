@@ -3,8 +3,10 @@
  * the verification process may break
  *******************************************/
 
+require('dotenv').load();
 var express = require('express');
 var app = express();
+
 try{
   var mongoose = require('mongoose');
 } catch (e) {
